@@ -135,9 +135,9 @@ body {
 
 .sm-img-basil {
   position: absolute;
-  width: 25%;
-  left:8%;
-  margin-top: -2rem;
+  width: 18%;
+  left: 8%;
+  margin-top: -6rem;
   transform: rotate(-30deg);
   z-index: 1;
 }
