@@ -1,0 +1,261 @@
+/* -----------------Home Page----------------- */
+body {
+  background-color: #cae8d5;
+}
+
+
+.menubutton {
+  position: absolute;
+  right: 10%;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5rem;
+  color: #006666;
+  background-color: #cae8d5;
+  border:0
+}
+
+.menubutton:hover,
+.menubutton:focus {
+    outline-color: #006666;
+}
+
+.fas {
+  margin: 0 0.5rem;
+}
+
+/* @media (max-width: 1124px) {
+  .menubutton {
+    top: 2%;
+    right: 2%;
+    font-size: 1rem;
+  }
+} */
+
+.img_logo {
+  display: block;
+  margin: 65px auto 50px auto;
+  padding-bottom: 20px;
+  padding-top: 50px;
+  width: 40%;
+}
+
+/* Title Section */
+.img-curryleaf {
+  position: absolute;
+  width: 15%;
+  margin-top: -10rem;
+  left:17%;
+}
+.sm-img-curryleaf {
+  position: absolute;
+  width: 22%;
+  left:15%;
+  margin-top: -10rem;
+}
+.img-tomato {
+  position: absolute;
+  width: 14%;
+  margin-top: -14rem;
+  right:17%;
+  z-index: 1;
+}
+.sm-img-tomato {
+  position: absolute;
+  width: 18%;
+  margin-top: -5rem;
+  right:5%;
+  z-index: 1;
+}
+.slogan_tag1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #006666;
+  font-weight: 400;
+  font-family: 'Roboto Slab', serif;
+}
+
+@media (min-width: 990px) {
+  .slogan_tag1 {
+    padding: 0 200px;
+  }
+}
+
+.slogan_tag2 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #006666;
+  font-weight: 300;
+  font-family: 'Dosis', sans-serif;
+  margin-bottom: 7%;
+}
+
+@media (min-width: 990px) {
+  .slogan_tag2 {
+    padding: 0 250px;
+  }
+}
+
+ /* Food Sample  */
+.img-food-container {
+  width: 50%;
+  border: 10px solid #FFF;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 990px) {
+  .img-food-container {
+    width: 80%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+ /*  Menu */
+ h2 {
+   padding-top: 50px;
+   padding-bottom: 50px;
+ }
+
+ .menu-title {
+   text-align: center;
+   font-family: 'Dosis', sans-serif;
+   font-weight: 500;
+   color: #006666;
+ }
+
+#menu {
+  margin-right: -16px;
+  background-color: #fbf0eb;
+}
+
+.img-basil {
+  position: absolute;
+  width: 15%;
+  left:15%;
+  margin-top: -10rem;
+  transform: rotate(-30deg);
+  z-index: 1;
+}
+
+.sm-img-basil {
+  position: absolute;
+  width: 18%;
+  left:8%;
+  margin-top: -8rem;
+  transform: rotate(-30deg);
+  z-index: 1;
+}
+
+.menu-container {
+ margin-right: 0;
+ padding-bottom: 100px;
+ text-align: center;
+}
+
+.img-menu {
+ width: 90%;
+}
+
+.menu-size-control {
+  margin:0 4rem;
+}
+
+@media (min-width: 828px) {
+.menu-size-control {
+  margin:0 200px;
+}
+}
+.menu-footer {
+  margin-right: -16px;
+  height:288px;
+  background-color:#fbf0eb;
+  background-image: url("menu-footer.jpg");
+}
+
+/* Address & Contact */
+.address-backgound1 {
+  text-align: center;
+  height: 40rem;
+  background-color: #006666;
+}
+
+.logo2 {
+  margin: 3rem 0;
+}
+.address-p {
+  color:#fbf0eb;
+}
+.kyberpass {
+  border: 4px solid #cae8d5;
+  border-radius: 50%;
+}
+.store1 {
+  text-align: left;
+  margin-top: 2rem;
+  margin-left: 13rem;
+}
+.westfield {
+  border: 4px solid #cae8d5;
+  border-radius: 50%;
+  margin-right: 17px;
+}
+.store2 {
+  text-align: right;
+  margin-top: 2.5rem;
+  margin-right: 12rem;
+}
+
+.address-backgound2 {
+  color:#006666;
+  height: 40rem;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+}
+.garlic {
+margin-top: 5rem;
+}
+
+.author {
+  padding-top: 30px;
+}
+
+/* -----------------Menu Page----------------- */
+#menupage {
+  background-color: #006666;
+}
+
+.menupage-button-container {
+  text-align: center;
+  padding-top: 6rem;
+}
+
+.menupage-button-close {
+position: absolute;
+right: 1rem;
+}
+
+.menupage-button {
+  color: #fff;
+  background-color: #006666;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 200;
+  font-size: 1.5rem;
+  border: 0;
+  padding-top: 2rem;
+}
+
+.menupage-button:hover,
+.menupage-button:focus {
+    color: #cae8d5;
+}
+.menupage-button:focus {
+    outline-color: #006666;
+}
+.menupage-button:active {
+    color: #FFF;
+}
+.menupage-onion {
+  padding-top: 5rem;
+}
