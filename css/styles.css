@@ -23,14 +23,6 @@ body {
   margin: 0 0.5rem;
 }
 
-/* @media (max-width: 1124px) {
-  .menubutton {
-    top: 2%;
-    right: 2%;
-    font-size: 1rem;
-  }
-} */
-
 .img_logo {
   display: block;
   margin: 65px auto 50px auto;
@@ -126,7 +118,7 @@ body {
  }
 
 #menu {
-  margin-right: -16px;
+  margin-right: -15px;
   background-color: #fbf0eb;
 }
 
@@ -168,7 +160,7 @@ body {
 }
 }
 .menu-footer {
-  margin-right: -16px;
+  margin-right: -15px;
   height:288px;
   background-color:#fbf0eb;
   background-image: url("menu-footer.jpg");
