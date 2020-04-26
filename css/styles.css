@@ -205,6 +205,8 @@ body {
 .nav-custom {
   color:#006666;
   font-weight: bold;
+  padding-left:0;
+  padding-right:1rem;
 }
 
 .nav-custom:hover {
